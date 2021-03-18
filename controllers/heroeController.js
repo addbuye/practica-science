@@ -4,7 +4,6 @@ let science = require('../data/science')
 
 
 
-
 let controller = {
     main:  (req, res) => {
         res.send (science.lista)
@@ -34,7 +33,8 @@ let controller = {
             
     }
 
-}
+},
+    
 }
 
 
